@@ -1,9 +1,9 @@
 from clases.circulo import Circulo
 
 
-timonYPumba=Circulo(5)
+circulo=Circulo(5)
 
-print(timonYPumba.area())
+print(f"El Area del circulo es {round(circulo.area(),2)}")
 
 
 
